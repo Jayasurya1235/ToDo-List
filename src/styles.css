@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+.todolist {
+  text-align: center;
+  margin-top: 100px;
+}
+button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+.addButton {
+  background-color: hsl(140, 90%, 65%);
+  color: white;
+}
+.addButton:hover {
+  background-color: hsl(140, 90%, 55%);
+}
+.deleteButton {
+  background-color: hsl(0, 90%, 60%);
+  color: white;
+}
+.deleteButton:hover {
+  background-color: hsl(0, 90%, 55%);
+}
+.moveButton {
+  background-color: hsl(50, 100%, 65%);
+  color: blue;
+  margin-left: 5px;
+}
+.moveButton:hover {
+  background-color: hsl(50, 100%, 50%);
+}
+input[type="text"] {
+  font-weight: bold;
+  text-align: center;
+  padding: 4px;
+  border-radius: 5px;
+  border: 2px solid hsl(20, 0%, 40%);
+}
+ul {
+  padding: 0px;
+  list-style: none;
+}
+li {
+  padding: 5px;
+  margin-top: 2px;
+  border: 2px solid hsla(0, 0%, 85%, 0.725);
+  border-radius: 5px;
+  background-color: hsl(39, 78%, 95%);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
