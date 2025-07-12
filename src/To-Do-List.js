@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsTrash } from "react-icons/bs";
 import { FaRegHandPointUp } from "react-icons/fa";
 import { FaRegHandPointDown } from "react-icons/fa";
-function To-Do-list() {
+function Todolist() {
   const [tasks, setTasks] = useState([
     "Eat Breakfast",
     "Take a Shower",
@@ -81,4 +81,4 @@ function To-Do-list() {
     </div>
   );
 }
-export default To-Do-list;
+export default Todolist;
